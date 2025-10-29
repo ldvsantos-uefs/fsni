@@ -1,0 +1,48 @@
+==============================================================================
+ANÁLISE DE VARIÂNCIA (ANOVA) - FSNSI por Uso da Terra
+==============================================================================
+
+             Df Sum Sq Mean Sq F value   Pr(>F)    
+amb           4  213.4   53.36   8.178 4.13e-06 ***
+Residuals   192 1252.6    6.52                     
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+3 observations deleted due to missingness
+
+==============================================================================
+TESTE DE TUKEY HSD - Comparações Múltiplas
+==============================================================================
+
+                                                               Comparação
+Conventional\nAgriculture-Cerrado       Conventional\nAgriculture-Cerrado
+Mahogany-Cerrado                                         Mahogany-Cerrado
+Eucalyptus-Cerrado                                     Eucalyptus-Cerrado
+Teak-Cerrado                                                 Teak-Cerrado
+Mahogany-Conventional\nAgriculture     Mahogany-Conventional\nAgriculture
+Eucalyptus-Conventional\nAgriculture Eucalyptus-Conventional\nAgriculture
+Teak-Conventional\nAgriculture             Teak-Conventional\nAgriculture
+Eucalyptus-Mahogany                                   Eucalyptus-Mahogany
+Teak-Mahogany                                               Teak-Mahogany
+Teak-Eucalyptus                                           Teak-Eucalyptus
+                                     Diferença IC_inferior IC_superior
+Conventional\nAgriculture-Cerrado        -0.18       -1.76        1.41
+Mahogany-Cerrado                          0.12       -1.46        1.69
+Eucalyptus-Cerrado                        1.64        0.07        3.22
+Teak-Cerrado                             -1.65       -3.24       -0.06
+Mahogany-Conventional\nAgriculture        0.29       -1.29        1.88
+Eucalyptus-Conventional\nAgriculture      1.82        0.24        3.40
+Teak-Conventional\nAgriculture           -1.47       -3.08        0.13
+Eucalyptus-Mahogany                       1.53       -0.05        3.10
+Teak-Mahogany                            -1.77       -3.36       -0.17
+Teak-Eucalyptus                          -3.29       -4.89       -1.70
+                                     p_ajustado Significância
+Conventional\nAgriculture-Cerrado        0.9980            ns
+Mahogany-Cerrado                         0.9996            ns
+Eucalyptus-Cerrado                       0.0356             *
+Teak-Cerrado                             0.0382             *
+Mahogany-Conventional\nAgriculture       0.9863            ns
+Eucalyptus-Conventional\nAgriculture     0.0152             *
+Teak-Conventional\nAgriculture           0.0879            ns
+Eucalyptus-Mahogany                      0.0615            ns
+Teak-Mahogany                            0.0215             *
+Teak-Eucalyptus                        4.56e-07           ***

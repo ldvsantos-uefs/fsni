@@ -1,0 +1,7 @@
+"amb","n","Média","DP","EP","CV_percent","Mínimo","Q1","Mediana","Q3","Máximo","Classificação_predominante","Distribuição_classes"
+"Cerrado",40,4.42,2.89,0.46,65.27,1.56,1.62,4.16,6.88,8.57,"baixa","baixa (50%); alta (40%); media (10%)"
+"Conventional
+Agriculture",40,4.25,2.57,0.41,60.56,1.31,1.66,4.18,5.21,8.21,"baixa","baixa (37.5%); media (37.5%); alta (22.5%); NA (2.5%)"
+"Mahogany",40,4.54,2.89,0.46,63.62,1.5,1.61,4.18,8.3,8.66,"baixa","baixa (40%); media (30%); alta (30%)"
+"Eucalyptus",40,6.07,2.78,0.44,45.84,1.63,3.98,7.46,8.35,8.57,"alta","alta (60%); baixa (25%); media (15%)"
+"Teak",40,2.77,1.16,0.18,41.78,1.42,1.71,2.82,3.8,4.55,"baixa","baixa (62.5%); media (32.5%); NA (5%)"

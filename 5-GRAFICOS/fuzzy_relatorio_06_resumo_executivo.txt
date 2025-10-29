@@ -1,0 +1,63 @@
+==============================================================================
+RESUMO EXECUTIVO - ANÁLISE FUZZY DE SUSTENTABILIDADE EDÁFICA
+==============================================================================
+
+1. OBJETIVO
+   Avaliar a funcionalidade edáfica de diferentes usos da terra no sul do
+   Tocantins por meio do Índice Fuzzy de Sustentabilidade Edáfica (FSNSI).
+
+2. SISTEMAS AVALIADOS
+   - Cerrado nativo (referência)
+   - Agricultura convencional
+   - Mogno-africano (Khaya ivorensis)
+   - Eucalipto (Eucalyptus sp.)
+   - Teca (Tectona grandis)
+
+3. AMOSTRAGEM
+   - Total de amostras: 200 
+   - Amostras por uso da terra: 40 
+   - Profundidades avaliadas: 0-10, 10-20, 20-30, 30-40, 40-50 cm
+
+4. RESULTADOS PRINCIPAIS
+
+   4.1 Ranking de Funcionalidade (FSNSI médio)
+       1. Eucalyptus           FSNSI = 6.07 ± 2.78 (EP = 0.44) [Média]
+       2. Mahogany             FSNSI = 4.54 ± 2.89 (EP = 0.46) [Média]
+       3. Cerrado              FSNSI = 4.42 ± 2.89 (EP = 0.46) [Média]
+       4. Conventional
+Agriculture FSNSI = 4.25 ± 2.57 (EP = 0.41) [Média]
+       5. Teak                 FSNSI = 2.77 ± 1.16 (EP = 0.18) [Baixa]
+
+   4.2 Distribuição por Classe de Funcionalidade
+       - baixa     :  86 amostras (43.0%)
+       - media     :  50 amostras (25.0%)
+       - alta      :  61 amostras (30.5%)
+       - NA        :   3 amostras (1.5%)
+
+   4.3 Comparações Estatisticamente Significativas (p < 0.05)
+       - Eucalyptus-Cerrado: Δ = 1.64 [IC: 0.07 a 3.22] *
+       - Teak-Cerrado: Δ = -1.65 [IC: -3.24 a -0.06] *
+       - Eucalyptus-Conventional
+Agriculture: Δ = 1.82 [IC: 0.24 a 3.40] *
+       - Teak-Mahogany: Δ = -1.77 [IC: -3.36 a -0.17] *
+       - Teak-Eucalyptus: Δ = -3.29 [IC: -4.89 a -1.70] ***
+
+   4.4 Correlações Mais Fortes com FSNSI
+       - n_total        : r = +0.789 [IC: 0.730 a 0.837] ***
+       - p_total        : r = +0.789 [IC: 0.730 a 0.837] ***
+       - n_labil        : r = +0.627 [IC: -0.532 a -0.302] ***
+       - p_labil        : r = +0.627 [IC: 0.533 a 0.705] ***
+       - n_humico       : r = +0.616 [IC: 0.521 a 0.696] ***
+
+5. CONCLUSÕES PRELIMINARES
+   - Sistema com MAIOR funcionalidade: 4 (FSNSI = 6.07)
+   - Sistema com MENOR funcionalidade: 5 (FSNSI = 2.77)
+   - Diferença entre extremos: 3.30 pontos (33.0% da escala)
+
+6. IMPLICAÇÕES PARA MANEJO
+   - O sistema 4 apresentou funcionalidade superior ao
+     Cerrado nativo, sugerindo potencial de melhoria da qualidade edáfica.
+
+==============================================================================
+Relatório gerado em: 29/10/2025 12:44:44 
+==============================================================================

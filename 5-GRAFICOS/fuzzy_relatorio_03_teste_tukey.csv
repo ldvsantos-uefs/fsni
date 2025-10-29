@@ -1,0 +1,15 @@
+"Comparação","Diferença","IC_inferior","IC_superior","p_ajustado","Significância"
+"Conventional
+Agriculture-Cerrado",-0.18,-1.76,1.41,"0.9980","ns"
+"Mahogany-Cerrado",0.12,-1.46,1.69,"0.9996","ns"
+"Eucalyptus-Cerrado",1.64,0.07,3.22,"0.0356","*"
+"Teak-Cerrado",-1.65,-3.24,-0.06,"0.0382","*"
+"Mahogany-Conventional
+Agriculture",0.29,-1.29,1.88,"0.9863","ns"
+"Eucalyptus-Conventional
+Agriculture",1.82,0.24,3.4,"0.0152","*"
+"Teak-Conventional
+Agriculture",-1.47,-3.08,0.13,"0.0879","ns"
+"Eucalyptus-Mahogany",1.53,-0.05,3.1,"0.0615","ns"
+"Teak-Mahogany",-1.77,-3.36,-0.17,"0.0215","*"
+"Teak-Eucalyptus",-3.29,-4.89,-1.7,"4.56e-07","***"
