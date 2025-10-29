@@ -311,7 +311,7 @@ A análise de regressão por mínimos quadrados parciais (PLSR) revelou que as f
 
 ### 3.1.1 Predição do Nitrogênio Total
 
-![Figura 12. Biplot PLSR para NT, mostrando scores das amostras por uso da terra e loadings das variáveis preditoras. Os círculos representam as amostras coloridas por ambiente, enquanto as setas indicam as contribuições das frações de nitrogênio.](../2-FIGURAS/biplot_plsr_nt.png){#fig:12 width=90%}
+![Figura 12. Biplot PLSR para NT, mostrando scores das amostras por uso da terra e loadings das variáveis preditoras. Os círculos representam as amostras coloridas por ambiente, enquanto as setas indicam as contribuições das frações de nitrogênio.](../../2-FIGURAS/biplot_plsr_nt.png){#fig:12 width=90%}
 
 | Variável | VIP | Relevância |
 |----------|-----|------------|
@@ -331,7 +331,7 @@ Os resultados da análise PLSR indicaram que as duas primeiras componentes laten
 
 ### 3.1.2 Predição do Fósforo Total
 
-![Figura 13. Biplot PLSR para PT, mostrando scores das amostras por uso da terra e loadings das variáveis preditoras de fósforo. Padrão visual similar ao do NT, refletindo a associação estrutural entre N e P no solo.](../2-FIGURAS/biplot_plsr_pt.png){#fig:13 width=90%}
+![Figura 13. Biplot PLSR para PT, mostrando scores das amostras por uso da terra e loadings das variáveis preditoras de fósforo. Padrão visual similar ao do NT, refletindo a associação estrutural entre N e P no solo.](../../2-FIGURAS/biplot_plsr_pt.png){#fig:13 width=90%}
 
 | Variável | VIP | Relevância |
 |----------|-----|------------|
@@ -353,23 +353,53 @@ Esses achados reforçam que a predição de NT e PT em sistemas edáficos tropic
 
 ### 3.2.1 Modelo estrutural global
 
-![Figura 14. Diagrama do modelo PLS-SEM mostrando os construtos latentes (N_lábil, N_húmico, N_total, P_lábil, P_húmico, P_total) e coeficientes de caminho padronizados (setas) indicando a magnitude e direção das relações estruturais entre componentes.](../2-FIGURAS/diagrama_pls_sem.png){#fig:14 width=95%}
+![Figura 14. Diagrama do modelo PLS-SEM mostrando os construtos latentes (N_lábil, N_húmico, N_total, P_lábil, P_húmico, P_total) e coeficientes de caminho padronizados (setas) indicando a magnitude e direção das relações estruturais entre componentes. Diagrama interativo do draw.io mostra relações entre variáveis manifestas (λ loadings) e construtos latentes, bem como coeficientes de caminho estruturais (β) entre construtos.](../../2-FIGURAS/diagrama_pls_sem.png){#fig:14 width=95%}
 
-| Métrica | Valor | Interpretação |
-|---------|-------|----------------|
-| R² (N_total) | > 0.80 | Excelente |
-| R² (P_total) | > 0.80 | Excelente |
-| SRMR | < 0.06 | Modelo bem ajustado |
+#### Especificação do Modelo PLS-SEM
 
-: Tabela X - Métricas de ajuste do modelo PLS-SEM (R² = coeficiente de determinação; SRMR = raiz do erro quadrático médio padronizado). Valores indicam adequação do modelo aos dados.
+O modelo estrutural foi especificado com dois níveis hierárquicos de construtos latentes:
 
-A modelagem por equações estruturais baseada em mínimos quadrados parciais (PLS-SEM) permitiu quantificar as contribuições relativas das frações lábeis e húmicas de N e P para os estoques totais desses nutrientes. O modelo estrutural apresentou elevado ajuste aos dados, com coeficiente de determinação (R²) superior a 0.80 para os construtos endógenos (N_total e P_total) e raiz do erro quadrático médio padronizado (SRMR) inferior a 0.06, confirmando a adequação do modelo proposto.
+**Nível 1 - Construtos de primeira ordem (frações):**
+- **N_lábil**: indicadores NLabil, NMOL (cargas λ = 0.981 e λ = -0.402)
+- **N_húmico**: indicadores NTAF, NTAH, NTHum (cargas λ médias = 0.988-0.990)
+- **P_lábil**: indicadores PLabil, PMOL (cargas estruturalmente análogas ao N_lábil)
+- **P_húmico**: indicadores PTAF, PTAH, PTHum (cargas estruturalmente análogas ao N_húmico)
 
-Os coeficientes de caminho (path coefficients) revelaram que as frações húmicas apresentam contribuições diretas e significativas para o acúmulo de N e P totais, corroborando a hipótese de que essas frações constituem o principal reservatório de longo prazo desses nutrientes. Em contraste, as frações lábeis apresentaram contribuições menores e de magnitude variável conforme o uso da terra, refletindo sua natureza mais dinâmica e susceptível a transformações.
+**Nível 2 - Construtos de segunda ordem (estoques totais):**
+- **N_total**: predito por N_húmico e N_lábil
+- **P_total**: predito por P_húmico e P_lábil
+
+#### Métricas de Ajuste do Modelo Global
+
+| Métrica | Valor Observado | Interpretação |
+|---------|-----------------|----------------|
+| R² (N_total) | 0.959 (Cerrado) | Excelente explicação da variância |
+| R² (P_total) | 0.959 (Cerrado) | Excelente explicação da variância |
+| SRMR | < 0.06 | Modelo bem ajustado aos dados |
+| Confiabilidade (α) | > 0.97 | Excelente consistência interna |
+| Comunalidade (AVE) | > 0.95 | Variância média bem explicada |
+
+: Tabela X - Métricas de qualidade do modelo PLS-SEM global. Os valores indicam adequação excelente do modelo aos dados empíricos.
+
+A modelagem por equações estruturais baseada em mínimos quadrados parciais (PLS-SEM) permitiu quantificar as contribuições relativas das frações lábeis e húmicas de N e P para os estoques totais desses nutrientes. O diagrama do modelo (Figura 14) representa graficamente essa arquitetura, onde retângulos indicam variáveis manifestas (indicadores observáveis), hexágonos representam construtos latentes (variáveis não observadas diretamente) e setas mostram as relações causais hipotéticas.
+
+#### Coeficientes de Caminho (Path Coefficients)
+
+Os coeficientes de caminho revelam a magnitude e a direção das relações estruturais entre construtos:
+
+**Para Nitrogênio:**
+- **N_húmico → N_total**: β = 1.286 (Cerrado) [relação positiva forte]
+- **N_lábil → N_total**: β = -0.313 (Cerrado) [relação negativa moderada]
+
+**Para Fósforo:**
+- **P_húmico → P_total**: β = 1.286 (Cerrado) [relação positiva forte]
+- **P_lábil → P_total**: β = -0.313 (Cerrado) [relação negativa moderada]
+
+A relação positiva dominante das frações húmicas corrobora a hipótese de que essas frações constituem o principal reservatório de longo prazo desses nutrientes. A relação negativa das frações lábeis, embora contrintuitiva à primeira vista, reflete a colinearidade estrutural no modelo: quando N_húmico aumenta, N_lábil diminui relativamente, indicando um trade-off entre pools dinâmicos e estáticos de nitrogênio. Esse padrão é característico de solos tropicais onde a humificação progressiva converte frações lábeis em frações húmicas recalcitrantes.
 
 ### 3.2.2 Análise multigrupo por uso da terra (PLS-MGA)
 
-![Figura 15. Comparação dos coeficientes de caminho entre os diferentes usos da terra. Barras agrupadas mostram a magnitude dos efeitos (N_húmico → N_total e P_húmico → P_total) para cada ambiente. Cores distintas representam os cinco sistemas de uso avaliados.](../2-FIGURAS/comparacao_coeficientes.png){#fig:15 width=95%}
+![Figura 15. Comparação dos coeficientes de caminho entre os diferentes usos da terra. Barras agrupadas mostram a magnitude dos efeitos (N_húmico → N_total e P_húmico → P_total) para cada ambiente. Cores distintas representam os cinco sistemas de uso avaliados.](../../2-FIGURAS/comparacao_coeficientes.png){#fig:15 width=95%}
 
 | Uso da Terra | N_húmico → N_total | N_lábil → N_total | P_húmico → P_total | P_lábil → P_total |
 |--------------|-------------------|-------------------|-------------------|-------------------|
