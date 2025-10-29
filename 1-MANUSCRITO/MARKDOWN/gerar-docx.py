@@ -119,7 +119,7 @@ def main():
     # Arquivos comuns
     bib_file = Path("referencias_artigo.bib")
     csl_file = Path("apa.csl")
-    apendices_pt = Path("apendices.md")
+    # apendices_pt = Path("apendices.md")  # Comentado: artigo ainda não possui apêndices
     
     # Verificar arquivos necessários
     arquivos_necessarios = [bib_file, csl_file]
@@ -144,7 +144,8 @@ def main():
     if not md_pt.exists():
         print(f"\n⚠️  Arquivo {md_pt} não encontrado, pulando...")
     else:
-        result = gerar_docx(md_pt, docx_pt, bib_file, csl_file, apendices_pt)
+        # Passar None para apendices_pt pois o artigo ainda não possui apêndices
+        result = gerar_docx(md_pt, docx_pt, bib_file, csl_file, apendices_pt=None)
         if result == 0:
             sucessos += 1
     
