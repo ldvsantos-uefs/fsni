@@ -64,7 +64,7 @@ def gerar_docx(md_file, output_file, bib_file, csl_file, apendices_file=None):
     ])
     
     # Adicionar modelo de formatação se existir
-    modelo = Path("modelo_formatacao.docx")
+    modelo = md_file.parent / "modelo_formatacao.docx"
     if modelo.exists():
         cmd.extend(["--reference-doc", str(modelo)])
     
@@ -108,18 +108,23 @@ def gerar_docx(md_file, output_file, bib_file, csl_file, apendices_file=None):
         return 1
 
 def main():
-    # Mudar para o diretório do script
+    # Definir o diretório base onde estão os arquivos
     script_dir = Path(__file__).parent
-    os.chdir(script_dir)
+    base_dir = script_dir
+    os.chdir(base_dir)
     
     print("=" * 70)
     print("📚 GERADOR DE ARTIGOS WORD - PORTUGUÊS E INGLÊS")
     print("=" * 70)
     
-    # Arquivos comuns
-    bib_file = Path("referencias_artigo.bib")
-    csl_file = Path("apa.csl")
-    # apendices_pt = Path("apendices.md")  # Comentado: artigo ainda não possui apêndices
+    # Arquivos comuns - procurar no script_dir ou parent
+    bib_file = base_dir / "referencias_artigo.bib"
+    if not bib_file.exists():
+        bib_file = base_dir.parent / "referencias_artigo.bib"
+    csl_file = base_dir / "apa.csl"
+    if not csl_file.exists():
+        csl_file = base_dir.parent / "apa.csl"
+    # apendices_pt = base_dir / "apendices.md"  # Comentado: artigo ainda não possui apêndices
     
     # Verificar arquivos necessários
     arquivos_necessarios = [bib_file, csl_file]
@@ -138,8 +143,12 @@ def main():
     # ========================================================================
     # 1. GERAR ARTIGO EM PORTUGUÊS
     # ========================================================================
-    md_pt = Path("artigo.md")
-    docx_pt = Path("artigo.docx")
+    md_pt = base_dir / "artigo.md"
+    if not md_pt.exists():
+        md_pt = base_dir.parent / "artigo.md"
+    if not md_pt.exists():
+        md_pt = base_dir / "scripts" / "artigo.md"
+    docx_pt = base_dir / "artigo.docx"
     
     if not md_pt.exists():
         print(f"\n⚠️  Arquivo {md_pt} não encontrado, pulando...")
@@ -152,9 +161,13 @@ def main():
     # ========================================================================
     # 2. GERAR ARTIGO EM INGLÊS
     # ========================================================================
-    md_en = Path("artigo_ENGLISH.md")
-    docx_en = Path("artigo_ENGLISH.docx")
-    apendices_en = Path("apendices_ENGLISH.md") if Path("apendices_ENGLISH.md").exists() else None
+    md_en = base_dir / "artigo_ENGLISH.md"
+    if not md_en.exists():
+        md_en = base_dir.parent / "artigo_ENGLISH.md"
+    if not md_en.exists():
+        md_en = base_dir / "scripts" / "artigo_ENGLISH.md"
+    docx_en = base_dir / "artigo_ENGLISH.docx"
+    apendices_en = base_dir / "apendices_ENGLISH.md" if (base_dir / "apendices_ENGLISH.md").exists() else (base_dir.parent / "apendices_ENGLISH.md" if (base_dir.parent / "apendices_ENGLISH.md").exists() else (base_dir / "scripts" / "apendices_ENGLISH.md" if (base_dir / "scripts" / "apendices_ENGLISH.md").exists() else None))
     
     if not md_en.exists():
         print(f"\n⚠️  Arquivo {md_en} não encontrado, pulando...")
