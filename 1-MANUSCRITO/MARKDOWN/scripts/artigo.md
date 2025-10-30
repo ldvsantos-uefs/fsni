@@ -12,7 +12,7 @@ lang: pt-BR
 
 # Resumo
 
-A conversão de ecossistemas naturais em sistemas agrícolas altera de forma substantiva a dinâmica do fósforo (P) e do nitrogênio (N) no solo, com implicações diretas para a sustentabilidade de ambientes tropicais. Este estudo avaliou a dinâmica funcional de N e P em frações lábeis e húmicas sob quatro usos da terra no sul do Tocantins (Cerrado nativo, Eucalipto, Pastagem e Agricultura com milho), visando integrar evidências preditivas, estruturais e sínteses fuzzy para diagnóstico da funcionalidade edáfica. Amostras de 0–50 cm foram analisadas quanto às frações lábeis (NLabil, NMOL; PLabil, PMOL), húmicas (NTAF, NTAH, NTHum; PTAF, PTAH, PTHum) e totais (NT, PT), incluindo estoques (EstNT, EstPT). A regressão por mínimos quadrados parciais (PLSR) identificou as frações mais relevantes por escores VIP, a modelagem por equações estruturais (PLS-SEM) explicitou relações causais entre construtos latentes (N_lábil, N_húmico, P_lábil, P_húmico) e os estoques totais (N_total, P_total), e um sistema de inferência fuzzy (FSNSI) sintetizou N_total, P_total e densidade do solo em um índice único de funcionalidade. As frações húmicas emergiram como preditoras dominantes (VIP > 1,0) e apresentaram efeito positivo forte sobre os estoques totais (β = 1,286), ao passo que as frações lábeis exibiram coeficientes negativos moderados (β = −0,313). O PLS-SEM indicou ajuste elevado (R² > 0,80; SRMR < 0,06) e simetria dos coeficientes entre N e P, sugerindo acoplamento biogeoquímico entre seus ciclos. O FSNSI diferenciou os usos: o Eucalipto apresentou a maior funcionalidade (FSNSI = 6,07), superando o Cerrado (4,42; p = 0,036), enquanto Agricultura e Pastagem revelaram funcionalidade intermediária. A densidade do solo correlacionou-se negativamente com o FSNSI (r = −0,424; p < 0,001), confirmando-se como fator limitante transversal. Em conjunto, os resultados indicam que o enriquecimento das frações húmicas, associado a maior aporte e qualidade da serapilheira e a melhor estrutura física, sustenta os estoques de N e P e a funcionalidade edáfica. Conclui-se que a integração entre PLSR, PLS-SEM e inferência fuzzy constitui abordagem robusta e multiescalar para diagnosticar a sustentabilidade nutricional do solo e orientar intervenções conservacionistas em ambientes tropicais. Quer que eu substitua o texto do resumo no arquivo com esta versão?
+A conversão de ecossistemas naturais em sistemas agrícolas altera de forma substantiva a dinâmica do fósforo (P) e do nitrogênio (N) no solo, com implicações diretas para a sustentabilidade de ambientes tropicais. Este estudo avaliou a dinâmica funcional de N e P em frações lábeis e húmicas sob quatro usos da terra no sul do Tocantins (Cerrado nativo, Eucalipto, Pastagem e Agricultura com milho), visando integrar evidências preditivas, estruturais e sínteses fuzzy para diagnóstico da funcionalidade edáfica. Amostras de 0–50 cm foram analisadas quanto às frações lábeis (NLabil, NMOL; PLabil, PMOL), húmicas (NTAF, NTAH, NTHum; PTAF, PTAH, PTHum) e totais (NT, PT), incluindo estoques (EstNT, EstPT). A regressão por mínimos quadrados parciais (PLSR) identificou as frações mais relevantes por escores VIP, a modelagem por equações estruturais (PLS-SEM) explicitou relações causais entre construtos latentes (N_lábil, N_húmico, P_lábil, P_húmico) e os estoques totais (N_total, P_total), e um sistema de inferência fuzzy (FSNSI) sintetizou N_total, P_total e densidade do solo em um índice único de funcionalidade. As frações húmicas emergiram como preditoras dominantes (VIP > 1,0) e apresentaram efeito positivo forte sobre os estoques totais (β = 1,286), ao passo que as frações lábeis exibiram coeficientes negativos moderados (β = −0,313). O PLS-SEM indicou ajuste elevado (R² > 0,80; SRMR < 0,06) e simetria dos coeficientes entre N e P, sugerindo acoplamento biogeoquímico entre seus ciclos. O FSNSI diferenciou os usos: o Eucalipto apresentou a maior funcionalidade (FSNSI = 6,07), superando o Cerrado (4,42; p = 0,036), enquanto Agricultura e Pastagem revelaram funcionalidade intermediária. A densidade do solo correlacionou-se negativamente com o FSNSI (r = −0,424; p < 0,001), confirmando-se como fator limitante transversal. Em conjunto, os resultados indicam que o enriquecimento das frações húmicas, associado a maior aporte e qualidade da serapilheira e a melhor estrutura física, sustenta os estoques de N e P e a funcionalidade edáfica. Conclui-se que a integração entre PLSR, PLS-SEM e inferência fuzzy constitui abordagem robusta e multiescalar para diagnosticar a sustentabilidade nutricional do solo e orientar intervenções conservacionistas em ambientes tropicais.
 
 
 **Palavras-chave:** Nitrogênio do solo; Frações húmicas; Mudança de uso da terra; Cerrado; Latossolo; PLS-SEM; PLSR.
@@ -37,79 +37,56 @@ Diante dessas premissas, o presente estudo teve como objetivo avaliar a dinâmic
 
 ## 2.1 Área de estudo
 
-A área de estudo está localizada na fazenda experimental da Universidade Federal do Tocantins, município de Gurupi – TO, nas coordenadas geográficas centrais 11º 46’ 25” S e 49º 02’ 54” W (Figura 1).
+A pesquisa foi desenvolvida, no município de São Valério da Natividade em Tocantins, com área total de 53,23 ha, nas coordenadas geográficas 11º54’37” S e 48º12’31” O (Figura 1). 
 
-![Figura 1. Localização das áreas experimentais](../../2-FIGURAS/mapa_area.png){#fig:1 width=70%}
 
-Conforme a classificação climática proposta por Thornthwaite e Mather, a região de estudo enquadra-se na categoria úmido subúmido (C2wA'a'), caracterizada por um déficit hídrico moderado no período invernal. Dados meteorológicos disponibilizados pela @SEPLAN indicam temperaturas médias anuais variando entre 25 °C e 29 °C, com precipitação média anual em torno de 1580 mm.
-O solo predominante na área foi classificado como Plintossolo Pétrico, o qual apresenta, como horizonte diagnóstico, um horizonte B plíntico. Esse tipo pedológico é comum em ambientes com lençol freático superficial ou em locais sujeitos a restrições de drenagem. A combinação entre altas temperaturas, regime hídrico favorável, relevo plano a suavemente ondulado e a presença de microdepressões naturais favorece a saturação hídrica periódica do solo, condição essencial para a gênese e expressão do horizonte plíntico (Santos et al., 2018). Foram avaliadas quatro áreas com diferentes usos do solo: Cerrado sensu stricto, Eucalyptus spp., pastagem e agricultura.
+![Figura 1. Localização das áreas experimentais](../../../2-FIGURAS/mapa_area.png){#fig:1 width=70%}
+
+O clima do município, é do tipo úmido subsumido com moderada deficiência hídrica (C2wA'a"), com duas estações bem definidas, inverno seco que vai de maio a outubro e verão chuvoso, de novembro a abril [@thornthwaite1948]. De acordo com a classificação climática de Köppen, o município de São Valério da Natividade possui pluviosidade média anual de 1643.3 mm, temperatura média 26°C. Está localizado a uma altitude de 320.48 m, e possui 90% da região com declividade inferior a 8º, indicando solos planos [@cho2021]. Os solos das áreas experimentais foram classificados como Latossolo Vermelho-Amarelo, possui uma estrutura granular a subagregada, com boa a excelente drenagem, porém é naturalmente pobre em nutrientes, especialmente nitrogênio, fósforo e potássio [@ker1997; @lopes1996].
 
 ## 2.2 Características das áreas de estudo
 
-A área de vegetação nativa corresponde a um fragmento típico de Cerrado sensu stricto, com extensão aproximada de 22.82 hectares. De acordo com @MarinhoJunior2021, trata-se de uma formação com mais de cinco décadas de regeneração natural. Sua localização centraliza-se nas coordenadas geográficas 11º46’13” S e 49º03’25” W (ver Figura 2).
+A área preservada com Cerrado (Sensu Stricto) (Figura 2a) considerada como testemunha possui 44,82 ha, com mais 40 anos, localizada nas coordenadas 11°54'57''S e 48°11'59''W (Figura 2). A vegetação possui características do tipo denso, com árvore que variam entre 5 a 8 metros de altura, uma vez que, a vegetação do cerrado sensu stricto não possui uma fisionomia única, pelo contrário, é bastante diversificada, apresentando desde formas campestres bem abertas, até formas relativamente densas (florestais) [@sano2019; @klink2005].
 
-
-Figura 2. Áreas estudadas. Fotomontagem das áreas: (a) Cerrado Stricto Sensu (vegetação nativa preservada); (b) Eucalipto (Eucalyptus sp.); (c) Mogno Africano (Khaya ivorensis); (d) Teca (Tectona grandis); (e) Agricultura (soja/milho em rotação).
+Figura 2. Áreas estudadas. Fotomontagem das áreas: (a) Cerrado Stricto Sensu (vegetação nativa preservada); (b) Eucalipto (*Eucalyptus* sp.); (c) Mogno Africano (*Khaya ivorensis*); (d) Teca (*Tectona grandis*); (e) Agricultura (soja/milho em rotação).
 
 | (a) | (b) | (c) |
 |:--------------:|:--------------:|:--------------:|
-| ![](../../2-FIGURAS/cerrado.jpg){ width=35% } | ![](../../2-FIGURAS/eucalipto.jpg){ width=35% } | ![](../../2-FIGURAS/mogno.jpg){ width=35% } |
+| ![](../../../2-FIGURAS/cerrado.jpg){ width=35% } | ![](../../../2-FIGURAS/eucalipto.jpg){ width=35% } | ![](../../../2-FIGURAS/mogno.jpg){ width=35% } |
 | (d) | (e) |  |
-| ![](../../2-FIGURAS/teca.jpg){ width=35% } | ![](../../2-FIGURAS/agricultura.jpg){ width=35% } |  |
-
-A Tabela 1 apresenta as espécies florestais existentes na área e seus respectivos parâmetros de dominância absoluta.
-
-Tabela 1 – Principais espécies florestais existentes na área de Cerrado sensu stricto, localizado na fazenda experimental da UFT, Campus de Gurupi (TO) e respectivas densidades relativas (DR%)
-
-| Nome popular                 | Espécie                                 | DR (%) |
-| :--------------------------- | :--------------------------------------- | -----: |
-| Guaramim                     | Myrcia splendens (Sw.) DC.               |  13,04 |
-| Pau-terrinha                 | Qualea multiflora Mart.                  |   9,87 |
-| Amescla                      | Protium heptaphyllum (Aubl.) Marchand    |   7,53 |
-| Tingui, Timbó               | Magonia pubescens A.St.-Hil.             |   5,35 |
-| Pau-terra-da-folha-grande    | Qualea grandiflora Mart.                 |   5,02 |
-| Pau-terra-de-flor-roxa       | Qualea parviflora Mart.                  |   4,35 |
-| Murici                       | Byrsonima pachyphylla A.Juss.            |   3,01 |
-| Pau-pombo                    | Tapirira guianensis Aubl.                |   2,84 |
-| Quina                        | Antonia ovata Pohl                       |   2,51 |
-| Acoita-cavalo-grauda         | Luehea grandiflora Mart. & Zucc.         |   2,51 |
-| Murici                       | Byrsonima stipulacea A.Juss.             |   2,51 |
-| Capitão-do-campo            | Terminalia argentea Mart.                |   2,17 |
-| Angelim do cerrado           | Vatairea macrocarpa (Benth.) Ducke       |   1,84 |
-| Folha-de-bolo                | Coccoloba mollis Casar.                  |   1,67 |
-| Pimenta-de-macaco            | Xylopia aromatica (Lam.) Mart.           |   1,67 |
-| Canjica                      | Roupala montana Aubl.                    |   1,67 |
-| Copaíba                     | Copaifera langsdorffii Desf.             |   1,51 |
-| Aroeira-do-campo             | Astronium fraxinifolium Schott           |   1,34 |
-| Guamirim                     | Calyptranthes clusiifolia O.Berg         |   1,34 |
-| Lixeira                      | Curatella americana L.                   |   1,17 |
-| Binguinha                    | Eriotheca gracilipes (K.Schum.) A.Robyns |    0,5 |
-| Espécies não identificadas |                                          |  21,82 |
-| Árvores mortas              |                                          |   4,85 |
-| Total                        |                                          |    100 |
+| ![](../../../2-FIGURAS/teca.jpg){ width=35% } | ![](../../../2-FIGURAS/agricultura.jpg){ width=35% } |  |
 
 
-O plantio de indivíduos de Eucalyptus spp. foi estabelecido há 11 anos em uma área de 0,65 hectares, situada nas coordenadas geográficas 11°46'28" S e 49°03'08" W (Figura 2b). A implantação do povoamento foi precedida pela remoção da vegetação nativa, utilizando-se trator de esteiras com lâmina frontal, seguida por operações mecanizadas de preparo convencional, incluindo aração e gradagem.
-As mudas de Eucalyptus spp., com aproximadamente 25 cm de altura no momento do plantio, foram oriundas do viveiro AM Florestal, localizado em Brasilândia (SP). O plantio foi realizado manualmente em covas com dimensões de 40 × 40 × 40 cm, abertas com cavadeiras manuais, e espaçadas em um arranjo de 3,0 × 2,0 m (entre linhas × entre plantas).
+Um inventario foi realizado e calculado os parâmetros fitossociológicos: Densidade Relativa - DR, Dominância Relativa - DMR, Frequência Relativa – FR e Índice de Valor de Importância - IVI [@queiroz2017] (Apêndice A).
 
-A área de pastagem ocupa 11,25 hectares tem aproximadamente 40 anos de idade [@MarinhoJunior2021] e está situada nas coordenadas 11º46'19" S e 49º03'12" W (Figura 2c), apresentando uma cobertura predominante do capim Andropogon sp., além de diversas outras espécies, como Spalum notatum, Eragrostis bahiensis, Axonopus affinis, Bothriochloa laguroides, Schizachyrium microstachyum, Paspalum dilatatum, Sporobolus indicus, Rhynchospora sp., Andropogon ternatus, Paspalum plicatulum, Eleocharis sp., Coelorhachis selloana e Panicum hians.
-A área destinada à agricultura abrange 0,95 hectares e está localizada nas coordenadas 11º44'53" S e 49º03'11" W (Figura 2e). Para preparar o solo, foram utilizados uma grade niveladora e um arado de discos. O controle de plantas daninhas foi feito por meio de capinas manuais, além da aplicação de herbicidas totais como o glifosato, quando necessário.
-Essa área foi cultivada por pelo menos seis anos com milho, visando à produção de espigas de milho verde e forragem [@Melo2017]. Os plantios aconteciam anualmente entre fevereiro e março, com um espaçamento médio de 0,20 x 0,80 m (Simon et al., 2016). Para a semeadura, foi utilizada uma plantadeira-adubadeira manual, que permitia a aplicação de adubo de base.
-Na época da semeadura, os nutrientes aplicados incluíram nitrogênio na forma de sulfato de amônio (45% de N), P na forma de superfosfato triplo (42% de P2O5) e potássio na forma de cloreto de potássio (58% de K2O), correspondendo a 120 kg de N, 170 kg de P e 140 kg de K por hectare. O nitrogênio foi aplicado em duas etapas: 50% aos 25 dias e 50% aos 45 dias após a semeadura [@Melo2017].
+O plantio de eucalipto (*Eucalyptus* sp.) possui área total de 2,29 ha com cinco anos de idade, localizado nas coordenadas de 11°54’32’’S, 48°12’22’’W (Figura 2b). Em relação a densidade do plantio, foi de aproximadamente 1667 mudas/ha em um espaçamento de 3 x 2 m, em covas que possuem dimensões de 0,40 x 0,40 x 0,40 m, abertas manualmente com auxílio de cavadeiras, seguido de aplicação de adubo NPK, na formulação 5-25-15, com intuito de estimular o desenvolvimento vegetal, para melhor acondicionamento das mudas ao solo [@verai2022].
+No início do plantio foi realizado adubação de base com 20 kg de Ca2+, 0,8 kg de Zn2+, 12 kg de S (SO42-), 1,6 kg de Cu2+ e 1,6 kg de B (H3BO3). A limpeza da área, para remoção de vegetação nativa, foi realizada com o auxílio de lâmina frontal acoplada ao trator de esteira, sucedido por aragem e gradagem, permitindo maior interação de oxigênio ao solo, o que viabiliza melhorias nos processos químicos e biológicos [@almeida2024]. No que tange ao processo de alinhamento e esquadrejamento das mudas, optou-se pela utilização do método do Triangulo Reto (3/4/5) com auxílio de baliza e trena [@verai2022].
+Já o plantio de Mogno Africano (*Khaya ivorensis*) possui uma área total de 1,94 ha, com sete anos de idade, localizado nas coordenadas 11°54'29''S, 48°12'10''W (Figura 2c). O plantio foi realizado em covas com dimensões de 0,40 x 0,40 x 0,40 m, e espaçamentos de 3 x 3 m com densidade de 1111 mudas/ha, e durante o plantio foi adicionado em cada cova 0,2 kg de adubo NPK com formulação 00-10-10, e 5 kg de esterco bovino curtido, sendo aplicados durante o primeiro ano de vida a cada três meses, além disto foi realizado o desbaste, quando as copas começaram a se encontrem, deixando o espaçamento final de 6 x 6 metros [@silva2023]. Assim como na área de Eucalipto a limpeza da área, foi realizada com o auxílio de lâmina frontal acoplada ao trator de esteira, sucedido por serviços de aragem e gradagem [@camposmontanari2024].
+O Plantio de Teca (*Tectona grandis*) possui uma área total de 1,12 ha, com dez anos de idade, localizado nas coordenadas 11°54’22’’S e 48°12’17’’W (Figura 2d). A limpeza da área antes do plantio, foi realizada com o auxílio de lâmina frontal acoplada ao trator de esteira, sucedido por serviços de aragem e gradagem [@camposmontanari2024]. Durante o primeiro ano, foram realizadas duas adubações de cobertura, onde a primeira foi executada aos 60 dias e a outra no oitavo mês, com aplicação de 95 g cova-1 de NPK com formulação de 20-05-20.
+
+O plantio foi realizado manualmente em espaçamento de 3 x 2 m, nas dimensões de 0,40 x 0,40 m, com 1.667 mudas/hectare, a qual, foram instaladas individualmente com seu colo ao nível do solo. Foi realizado também o replantio das mudas que falharam, além da limpeza no primeiro ano, uma vez que, a teca é particularmente sensível à competição de gramíneas, sendo assim, necessário manter o terreno bem carpido; no segundo ano, o sombreamento proporcionado pela teca evitou boa parte do desenvolvimento de ervas daninhas, reduzindo a necessidade de capinas e roçadas e no terceiro ano, não foram mais necessários tratos culturais [@moreira2021].
+
+Além disso, foram realizadas atividades de podas e desbrotas com auxílio de serrotes, com observações constantes quanto à dimensão dos galhos. 
+Por fim a área de agricultura possui 3,06 ha, possui mais de 10 anos, localizada nas coordenadas de 11°54’44’’S e 48°12’02’’W (Figura 2e). A área destinada a agricultura possui mais de 10 anos, sendo rotacionado entre o cultivo de milho e soja. No momento da coleta, a área estava sendo utilizada para plantio de soja que se estende entre os meses de junho e setembro. Foram empregadas atividades de gradagem e nivelamento do solo, com posterior aplicação de 300 kg ha-1 de NPK na formulação 4-28-10, com espaçamento entre os indivíduos de 0,5 m, tratados durante todo o plantio com fungicidas tiofanto-metílico e azoxistrobina, e inseticidas, na dosagem de 100 g para cada 50 kg de sementes, além da remoção de ervas daninhas [@machado2024].
+Já o cultivo do milho, estende-se entre os meses janeiro a março, em virtude das condições favoráveis promovidas pela precipitação. O preparo do solo ocorreu através de gradagem e sulcamento, com espaçamento médio, entre os indivíduos, de 0,2 x 0,8 m e adubação de 400 kg de 4-14-18 por ha-1, no interior do sulco de semeadura, e 50, 100 e 150 kg de N por ha-1, sobre a superfície do solo, aliado aos procedimentos relacionados ao combate de daninhas, por meio de capina manual e emprego de herbicidas, quando necessário [@eckardt2021].
+
 
 ## 2.6 Amostragem de solo
 
-Para coletar amostras de solo foram selecionadas aleatoriamente nas diferentes áreas: Cerrado sensu stricto, povoamento de Eucalyptus sp., pastagem natural e área agrícola. Seis trincheiras foram abertas com um gabarito de 70 x 70 cm e 50 cm de profundidade, conforme a Figura 3.
+As cinco trincheiras em cada área estudada com dimensões com ajuda de um gabarito 70 × 70 × 100 cm (Figura 3) em pontos distintos [@marinhojunior2021], foram abertas manualmente, totalizando no total vinte e cinco trincheiras. 
 
-![Figura 3. Coleta de solo em área de vegetação nativa (Cerrado sensu stricto)](../../2-FIGURAS/trincheira.jpg)
 
-Fonte: (2024)
-As amostras foram coletadas durante o período seco, nas profundidades: 0-10, 10-20, 20-30, 30-40 e 40-50 cm, sendo a última considerada a camada de impedimento. As amostras deformadas foram secas ao ar em temperatura ambiente e, em seguida, passadas por uma peneira de 2 mm para as análises físicas e químicas. Já as amostras não deformadas foram coletadas separadamente para a determinação da densidade do solo.
+![Figura 3. Coleta de solo em área de vegetação nativa (Cerrado sensu stricto)](../../../2-FIGURAS/trincheira.png)
 
+
+
+
+A coleta das amostras de solo, deformadas e indeformadas, para as analises físicas e químicas foram realizadas nas profundidades de 0-10, 10-20, 20-30, 30-40, 40-50, 50-60, 60-80, 80-100 cm. Depois, as amostras de solos deformadas foram secas ao ar e passada em peneira de 2 mm para posterior analises.
 ### 2.6.1 Análises físicas
 
-A distribuição dos tamanhos das partículas do solo nas profundidades de 0-50 cm, foi realizada em amostras deformadas por meio do método da pipeta [@Teixeira2017a], e apresentaram as seguintes médias para cada área: Eucalipto (areia 631.50 g kg-1, silte 83.80 g kg-1 e argila 284.70 g kg-1); Agricultura (areia 659.50 g kg-1, silte 65.60 g kg-1, argila 274.90 g kg-1); Pastagem (areia 672.90 g kg-1, silte 71.00 g kg-1, argila 256.10 g kg-1); Cerrado (areia 639.70 g kg-1, silte 84.70 g kg-1, argila 275.60 g kg-1).
-Amostras não deformadas foram coletadas e submetidas à análise de densidade do solo [@Teixeira2017a], e as médias das áreas na profundidade de 0-50 cm foram: Eucalipto (1.57 g cm-3), Agricultura (1.51 g cm-3), Pastagem (1.62 g cm-3) e Cerrado (0.97 g cm-3).
+A determinação da distribuição dos tamanhos das partículas do solo foi realizada em amostras deformadas por meio do método da pipeta [@teixeira2017] (TABELA 2). A determinação da densidade do solo foi realizada por meio do método do cilindro volumétrico, conforme descrito por @teixeira2017 (APENDICE B). Desta forma, cilindros de aço inoxidável com 3 cm de diâmetro e 8 cm de altura foram inseridos e retirados do solo sem ocorrer deformação e acondicionadas em sacos plásticos devidamente identificados. As amostras indeformadas foram submetidas à secagem por 72 horas, utilizando-se uma estufa de ventilação forçada com temperatura regulada para 105ºC, sendo determinada a massa de solo seco para realização do cálculo de densidade.
+
+
 
 ### 2.6.2 Análises químicas
 
@@ -119,11 +96,8 @@ O solo foi pesado em 0,5 g, passado em peneira de 150 μm (100 mesh), depois foi
 
 #### 2.6.2.2 Fracionamento das substâncias húmicas e teores de fósforo em cada fração
 
-Para extrair as substâncias húmicas, as amostras de solo passaram por um processo de fracionamento seguindo o método da International Humic Substances Society (IHSS), conforme descrito por SWIFT em 1996. Esse processo resultou na obtenção das frações de ácidos fúlvicos (AF), ácidos húmicos (AH) e humina (Hum), baseado na solubilidade em soluções ácidas e alcalinas.
-A extração começou com a mistura de 200 gramas de solo com uma solução de HCl a 0,1 mol/L, na proporção de 1 grama de solo para 10 mililitros de solução. Essa mistura foi agitada manualmente por 1 hora e, em seguida, deixada em repouso por 4 horas. O líquido que ficou por cima foi sifonado e reservado, dando origem ao extrato I de ácidos fúlvicos.
-Depois disso, adicionou-se uma solução de NaOH a 0,1 mol/L na mesma proporção (1:10) e também foi agitada manualmente. Após essa etapa, a solução foi deixada em repouso por 16 horas. Em seguida, o material que se precipitou foi separado, correspondendo à fração de humina e ao material mineral.
-O sobrenadante, que continha as frações de AF e AH, foi centrifugado por 10 minutos a 10.000 rpm. Depois, acidificou-se essa solução com a adição de 50 mililitros de HCl a 6 mol/L, ajustando o pH para um valor entre 1 e 2, e agitou-se manualmente por dois minutos. Após esse procedimento, a solução foi deixada em repouso por 12 horas. Ao final, o sobrenadante foi desviado, obtendo-se o extrato II de ácidos fúlvicos, enquanto o material precipitado estava relacionado à fração de ácidos húmicos.
-Após o fracionamento das substâncias húmicas, as amostras foram congeladas e liofilizadas para a determinação dos teores de P em cada fração AF, AH e Hum, utilizando o método de colorimetria pelo método de Murphy e Riley (1962).
+Para extrair as substâncias húmicas, as amostras de solo passaram por um processo de fracionamento seguindo o método da International Humic Substances Society (IHSS), conforme descrito por SWIFT em 1996. Esse processo resultou na obtenção das frações de ácidos fúlvicos (AF), ácidos húmicos (AH) e humina (Hum), baseado na solubilidade em soluções ácidas e alcalinas. A extração começou com a mistura de 200 gramas de solo com uma solução de HCl a 0,1 mol/L, na proporção de 1 grama de solo para 10 mililitros de solução. Essa mistura foi agitada manualmente por 1 hora e, em seguida, deixada em repouso por 4 horas. O líquido que ficou por cima foi sifonado e reservado, dando origem ao extrato I de ácidos fúlvicos. Depois disso, adicionou-se uma solução de NaOH a 0,1 mol/L na mesma proporção (1:10) e também foi agitada manualmente. Após essa etapa, a solução foi deixada em repouso por 16 horas. Em seguida, o material que se precipitou foi separado, correspondendo à fração de humina e ao material mineral. O sobrenadante, que continha as frações de AF e AH, foi centrifugado por 10 minutos a 10.000 rpm. Depois, acidificou-se essa solução com a adição de 50 mililitros de HCl a 6 mol/L, ajustando o pH para um valor entre 1 e 2, e agitou-se manualmente por dois minutos. Após esse procedimento, a solução foi deixada em repouso por 12 horas. Ao final, o sobrenadante foi desviado, obtendo-se o extrato II de ácidos fúlvicos, enquanto o material precipitado estava relacionado à fração de ácidos húmicos. Após o fracionamento das substâncias húmicas, as amostras foram congeladas e liofilizadas para a determinação dos teores de P em cada fração AF, AH e Hum, utilizando o método de colorimetria pelo método de Murphy e Riley (1962).
+
 
 #### 2.6.2.3 Determinação dos estoques de fósforo
 
@@ -143,11 +117,17 @@ As amostras de solo deformadas, depois de passadas em peneiras de 2 mm, foram ma
 
 ### 2.6.4 Fracionamento das substâncias húmicas e teores de Nitrogênio em cada fração
 
-Para extração das substâncias húmicas, as amostras de solo foram submetidas ao fracionamento segundo o método da International Humic Substances Society - IHSS [@Swift1996], obtendo-se as frações correspondentes aos ácidos fúlvicos - AF, ácidos húmicos - AH e humina - HUM, com base na solubilidade diferencial em soluções alcalinas e ácidas. Para a extração foi realizada com uma mistura de 200 g de solo com solução de HCl 0,1 mol L-1 na proporção de 1 g de solo para cada 10 mL de solução, sendo agitada manualmente por 1 hora, ficando depois em repouso por 4 horas.
-O extrato sobrenadante foi sifonado e reservado, correspondendo ao extrato I de AF. Assim, a solução de NaOH 0,1 mol L-1 foi adicionada e precipitada na mesma proporção citada anteriormente (1:10) e também realizada agitação manual. Após este período, a solução foi deixada em repouso por 16 horas, seguindo na sequência para a nova retirada da mistura, na qual o material precipitado foi separado, correspondendo à fração Hum e fração mineral.
+Para extração das substâncias húmicas, as amostras de solo foram submetidas ao fracionamento segundo o método da International Humic Substances Society - IHSS (Swift, 1996), obtendo-se as frações correspondentes aos ácidos fúlvicos - AF, ácidos húmicos - AH e humina - HUM, com base na solubilidade diferencial em soluções alcalinas e ácidas. Para a extração foi realizada com uma mistura de 200 g de solo com solução de HCl 0,1 mol L-1 na proporção de 1 g de solo para cada 10 mL de solução, sendo agitada manualmente por 1 hora, ficando depois em repouso por 4 horas. O extrato sobrenadante foi sifonado e reservado, correspondendo ao extrato I de AF. Assim, a solução de NaOH 0,1 mol L-1 foi adicionada e precipitada na mesma proporção citada anteriormente (1:10) e também realizada agitação manual. Após este período, a solução foi deixada em repouso por 16 horas, seguindo na sequência para a nova retirada da mistura, na qual o material precipitado foi separado, correspondendo à fração Hum e fração mineral.
+O material sobrenadante, referente às frações AF e AH, foi centrifugado por 10 minutos a 10.000 rpm, sendo depois acidificado pela adição de 50 mL de HCl 6 mol L-1 até atingir o valor de pH entre 1 e 2 e agitado manualmente por dois minutos. Após este procedimento, a solução foi deixada em repouso por 12 horas. Por fim, após separação por desvio do sobrenadante, referente ao extrato II de AF, obteve-se o material precipitado que está relacionada à fração de AH. Posteriormente ao fracionamento das substâncias húmicas, as amostras foram congeladas e liofilizadas para determinação dos teores de nitrogênio em cada fração húmica (AF, AH e Hum), a partir do método de combustão a seco, utilizando um analisador elementar (Modelo PE-2400 Série II Perkin Elmer).
 
-O material sobrenadante, referente às frações AF e AH, foi centrifugado por 10 minutos a 10.000 rpm, sendo depois acidificado pela adição de 50 mL de HCl 6 mol L-1 até atingir o valor de pH entre 1 e 2 e agitado manualmente por dois minutos. Após este procedimento, a solução foi deixada em repouso por 12 horas. Por fim, após separação por desvio do sobrenadante, referente ao extrato II de AF, obteve-se o material precipitado que está relacionada à fração de AH.
-Posteriormente ao fracionamento das substâncias húmicas, as amostras foram congeladas e liofilizadas para determinação dos teores de nitrogênio em cada fração húmica (AF, AH e Hum), a partir do método de combustão a seco, utilizando um analisador elementar (Modelo PE-2400 Série II Perkin Elmer).
+2.3.5 Determinação dos estoques de Nitrogênio
+Após a obter os teores de N pelos métodos citados anteriormente, foi realizada a determinação do estoque N no solo e nas frações húmicas em Mg ha-1, em cada profundidade amostrada, conforme a equação (Equação 2) a seguir:
+
+Est(N)= TN*Ds*e
+
+Em que: Est(N) = Estoque de N na camada do solo, em Mg ha-1; TN = Teor de N na fração amostrada de solo, em g kg-1; Ds = Densidade do solo, em g cm-3; e = espessura da camada, em cm.
+Após o cálculo do estoque de N em cada camada, foi realizada a correção do estoque de N, levando em consideração as diferenças na massa do solo [@sisti2004]. Sendo assim, o estoque total de N no solo e nas substâncias húmicas na profundidade de 0 a 50 cm, sendo a última considerada a camada de impedimento foi resultante da soma dos valores obtidos em cada camada amostrada.
+
 
 ### 2.6.5 Determinação dos estoques de Nitrogênio
 
@@ -160,7 +140,7 @@ TN = Teor de N na fração amostrada de solo, em g kg-1;
 Ds = Densidade do solo, em g cm-3;
 e = espessura da camada, em cm.
 
-Após o cálculo do estoque de N em cada camada, foi realizada a correção do estoque de N, levando em consideração as diferenças na massa do solo (SISTI et al., 2004). Sendo assim, o estoque total de N no solo e nas substâncias húmicas na profundidade de 0 a 50 cm, sendo a última considerada a camada de impedimento foi resultante da soma dos valores obtidos em cada camada amostrada.
+Após o cálculo do estoque de N em cada camada, foi realizada a correção do estoque de N, levando em consideração as diferenças na massa do solo [@sisti2004]. Sendo assim, o estoque total de N no solo e nas substâncias húmicas na profundidade de 0 a 50 cm, sendo a última considerada a camada de impedimento foi resultante da soma dos valores obtidos em cada camada amostrada.
 
 ## 2.7 Análises estatísticas
 
@@ -184,7 +164,7 @@ O presente estudo teve como objetivo avaliar o funcionamento biogeoquímico do s
 
 A modelagem por equações estruturais baseada em mínimos quadrados parciais (Partial Least Squares Structural Equation Modeling - PLS-SEM) foi empregada com o propósito de explicitar relações causais latentes entre os compartimentos funcionais de N e P, testando a hipótese de que formas mais biodisponíveis (lábeis) e formas mais estabilizadas (húmicas) contribuem de modo distinto para os estoques totais desses nutrientes no solo. Esta abordagem, orientada à predição e adequada para modelos complexos com amostras de tamanho moderado, permite estimar simultaneamente relações entre variáveis latentes (construtos) e suas variáveis manifestas (indicadores), sem exigir pressupostos de normalidade multivariada.
 
-A análise foi conduzida no ambiente R, utilizando o pacote `seminr` (Ray et al., 2022), que operacionaliza a estimação baseada em amostragem por caminhos iterativos segundo o algoritmo PLS-PM. O modelo foi estruturado em dois componentes fundamentais: o modelo de mensuração (outer model), que especifica as relações entre os construtos latentes e seus indicadores, e o modelo estrutural (inner model), que define os caminhos causais entre os construtos.
+A análise foi conduzida no ambiente R, utilizando o pacote `seminr`, que operacionaliza a estimação baseada em amostragem por caminhos iterativos segundo o algoritmo PLS-PM. O modelo foi estruturado em dois componentes fundamentais: o modelo de mensuração (outer model), que especifica as relações entre os construtos latentes e seus indicadores, e o modelo estrutural (inner model), que define os caminhos causais entre os construtos.
 
 #### Modelo de mensuração (Outer Model)
 
@@ -270,7 +250,8 @@ A base de conhecimento foi composta por sete regras linguísticas do tipo “SE�
 R_(i ):SE x_1  ∈ A_1  ∧ x_2  ∈ A_2  ∧ x_3  ∈ A_3⇒y ∈ B_i
 
 A ativação de cada regra R_(i ) foi calculada conforme a Equação 7:
-α_i=〖min 〗⁡〖(μ_A1 (x_1 ),μ_(A2 ) (x_1 ),…,μ_(An ) (x_n )〗
+
+$$\alpha_i = \min(\mu_{A1}(x_1), \mu_{A2}(x_2), \dots, \mu_{An}(x_n))$$
 
 O valor de saída correspondente μ_Bi (z) foi ponderado por αi  e os conjuntos ativados foram agregados via operador do tipo MAX.
 Para incorporar o papel da densidade do solo como penalidade funcional, os pesos wi atribuídos a cada regra foram ajustados dinamicamente em função da classificação linguística de Ds. Regras com densidade alta (categoria linguística "baixa" na escala invertida) receberam pesos reduzidos (entre 0.4 e 0.6), enquanto regras com densidade baixa (categoria "alta") foram atribuídas com pesos maiores (até 1.5). Esse ajuste visa reforçar a influência da qualidade física do solo na determinação da funcionalidade.

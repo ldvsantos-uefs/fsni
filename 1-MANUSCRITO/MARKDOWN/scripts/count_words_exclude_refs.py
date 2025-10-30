@@ -20,7 +20,7 @@ import re
 import sys
 
 
-DEFAULT_PATH = Path(__file__).resolve().parents[1] / "artigo.md"
+DEFAULT_PATH = Path(__file__).resolve().parent / "artigo.md"
 
 
 def strip_references_section(text: str) -> str:
@@ -205,7 +205,10 @@ def main():
     # Conta referências do BibTeX se solicitado
     total_refs = 0
     if args.include_bibtex and bib_file:
+        # Procura primeiro no diretório do script, depois no diretório pai
         bib_path = path.parent / bib_file
+        if not bib_path.exists():
+            bib_path = path.parent.parent / bib_file
         if bib_path.exists():
             bib_content = extract_bib_content(bib_path)
             bib_clean = remove_markdown_noise(bib_content)
