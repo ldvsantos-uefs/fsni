@@ -8,7 +8,7 @@ book:
   date: today
   favicon: cover.png
   cover-image: cover.png
-  downloads: pdf
+  downloads: [docx]
   reader-mode: true
   sidebar:
     align: left
@@ -44,16 +44,11 @@ format:
     code-overflow: wrap
     link-external-newwindow: true
     html-math-method: mathjax
-    
-  pdf:
-    documentclass: article
+  
+  docx:
     number-sections: true
-    code-overflow: wrap
-    geometry:
-      - top=2.5cm
-      - bottom=2.5cm
-      - left=2.5cm
-      - right=2.5cm
+    highlight-style: github
+    toc: true
 
 bibliography: references.bib
 csl: apa.csl

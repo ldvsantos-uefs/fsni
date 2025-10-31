@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1761919595.04721 "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_5_diego/artigo_5_catuxe/QUARTO-TEMPLATE/index.tex" "index.pdf" "index" 1761919600.78789 2
+["pdflatex"] 1761919700.07872 "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_5_diego/artigo_5_catuxe/QUARTO-TEMPLATE/index.tex" "index.pdf" "index" 1761919706.14724 2
   "C:/Users/vidal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761918293 173419 bb686e6b2dd2985a2e625a074d364728 ""
   "C:/Users/vidal/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1758723833 24225046 fd78db65d37bae8a5feb05eceae65627 ""
   "C:/Users/vidal/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -143,7 +143,7 @@
   "C:/Users/vidal/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/x11nam.def" 1700127522 9125 e0e22f8bd8f488926acdd4e96dcc4d1e ""
   "C:/Users/vidal/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "C:/Users/vidal/AppData/Local/Programs/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_5_diego/artigo_5_catuxe/QUARTO-TEMPLATE/index.tex" 1761919584 120439 18c6f1db8f0bc6275ecca6fcf684d58b ""
+  "c:/Users/vidal/OneDrive/Documentos/13 - CLONEGIT/artigo_5_diego/artigo_5_catuxe/QUARTO-TEMPLATE/index.tex" 1761919690 120439 18c6f1db8f0bc6275ecca6fcf684d58b ""
   "chapters/../figures/agricultura.jpg" 1761159056 1400765 0fd46c420d4e46140b94b6e4fb91ef72 ""
   "chapters/../figures/analise_caminhos_pls.png" 1761756099 359958 27987acd4b18f0480f7fce3e4f7a0f95 ""
   "chapters/../figures/biplot_plsr_pt.png" 1761755318 76083 2c670925d7e1f349b3c41104ce258d06 ""
@@ -158,9 +158,9 @@
   "chapters/../figures/mogno.jpg" 1761852857 110124 4b5363570d999bc61561e3e6f3a85ecd ""
   "chapters/../figures/teca.jpg" 1761159032 2436595 95904b54885742ddd41c8072bb477c28 ""
   "chapters/../figures/trincheira.png" 1761852872 311491 0305efa64c99445a47311950ac38f6b7 ""
-  "index.aux" 1761919600 28967 a3683063f3d9a3f3b9ff815737c0e0df "pdflatex"
-  "index.tex" 1761919584 120439 18c6f1db8f0bc6275ecca6fcf684d58b ""
-  "index.toc" 1761919600 3427 8be45330795afb2c7cc3bcb4c7e4298e "pdflatex"
+  "index.aux" 1761919705 28967 a3683063f3d9a3f3b9ff815737c0e0df "pdflatex"
+  "index.tex" 1761919690 120439 18c6f1db8f0bc6275ecca6fcf684d58b ""
+  "index.toc" 1761919705 3427 8be45330795afb2c7cc3bcb4c7e4298e "pdflatex"
   "use chapters/../figures/agricultura.jpg" 1761159056 1400765 0fd46c420d4e46140b94b6e4fb91ef72 ""
   "use chapters/../figures/analise_caminhos_pls.png" 1761756099 359958 27987acd4b18f0480f7fce3e4f7a0f95 ""
   "use chapters/../figures/biplot_plsr_pt.png" 1761755318 76083 2c670925d7e1f349b3c41104ce258d06 ""
