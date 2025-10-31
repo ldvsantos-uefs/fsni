@@ -18,7 +18,7 @@ Esses resultados são congruentes com a interpretação funcional em que as fra�
 Do ponto de vista gerencial e ecológico, a predominância das frações húmicas na predição do NT indica que práticas voltadas ao aumento da estabilidade da MOS (redução do revolvimento, incremento de inputs lignificados, manutenção de cobertura morta) tendem a promover retenção de N em formas de maior persistência, fortalecendo a capacidade de armazenamento e a resiliência do sistema. Em contrapartida, sistemas com maior proporção de frações lábeis apresentam maior disponibilidade imediata de N, porém menor capacidade de retenção a longo prazo, implicando necessidade de intervenções de manejo contínuo para manutenção da fertilidade.
 
 
-### 3.1.2 Predição do Fósforo Total
+### Predição do Fósforo Total
 
 De forma similar ao observado para o nitrogênio, os teores de P total (PT) e suas frações húmicas (PTHum, PTAH, PLabil) apresentaram elevada correlação estrutural no modelo PLSR (Figura 5). Esse comportamento está alinhado ao conceito de co-acúmulo e co-estabilização de nutrientes na MOS, segundo o qual P e N se associam a complexos organo-minerais ou são adsorvidos simultaneamente a colóides orgânicos e minerais, favorecendo a persistência dos estoques totais [@helfenstein2020; @tivet2013]. A aplicação de técnicas multivariadas como PLSR em estudos de ciência do solo tem se mostrado particularmente adequada para lidar com conjuntos de dados caracterizados por multicolinearidade entre variáveis, conforme demonstrado por @sekaran2020 em análises de atividades bioquímicas e estrutura de comunidades microbianas do solo.
 
@@ -45,7 +45,7 @@ Esses achados reforçam que a predição de NT e PT em sistemas edáficos tropic
 
 ## Relações estruturais entre frações lábeis, húmicas e estoques totais (PLS-SEM) {-}
 
-### 3.2.1 Resultados do modelo estrutural global
+### Resultados do modelo estrutural global
 
 
 O modelo estrutural foi configurado como um modelo de componentes hierárquicos (hierarchical component model, HCM) em dois níveis, combinando construtos de primeira ordem que representam as frações funcionais de nitrogênio e fósforo e construtos de segunda ordem que sintetizam os estoques totais. Essa abordagem segue as recomendações de @hair2021 para modelagem de estruturas reflexivas com indicadores repetidos, assegurando que a variância compartilhada entre as dimensões funcionais seja propagada para os construtos superiores. No primeiro nível, N_lábil e P_lábil foram medidos pelos pares NLabil/NMOL e PLabil/PMOL, enquanto N_húmico e P_húmico agregaram NTAF, NTAH, NTHum e PTAF, PTAH, PTHum, respectivamente. A etapa de mensuração revelou cargas fatoriais elevadas (? = 0.981 a 0.990) para todos os indicadores, confirmando que as variáveis manifestas capturam de forma robusta a variabilidade intrínseca de cada fração funcional (Figura 6).

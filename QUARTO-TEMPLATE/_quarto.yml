@@ -66,6 +66,7 @@ format:
     number-sections: true
     highlight-style: github
     toc: true
+    reference-doc: reference-justified.docx
 
 bibliography: references.bib
 csl: apa.csl

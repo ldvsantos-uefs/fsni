@@ -61,3 +61,31 @@
 - **Gerar tudo (HTML, PDF, DOCX)**: `quarto render`
 
 Todos os arquivos são gerados automaticamente na pasta `docs/` da raiz do projeto.
+
+---
+
+## 📚 Gerenciamento de Referências com Mendeley
+
+### Configuração Automática (Recomendado)
+
+1. **No Mendeley Desktop**: Tools → Options → BibTeX
+2. ☑ Enable BibTeX syncing
+3. Escolha esta pasta: `QUARTO-TEMPLATE/`
+4. Nome do arquivo: `references.bib`
+
+### Como Citar
+
+No texto dos capítulos (`.qmd`):
+```markdown
+Segundo estudos recentes [@autor2020], observou-se que...
+Múltiplos autores [@autor2020; @outro2021] concordam.
+```
+
+### Verificar Sincronização (Opcional)
+
+Execute o script R:
+```r
+source("sync-mendeley.R")
+```
+
+📖 **Detalhes completos**: Veja `MENDELEY-SETUP.md`
