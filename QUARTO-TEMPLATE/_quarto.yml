@@ -52,6 +52,10 @@ format:
     number-sections: true
     toc: true
     code-overflow: wrap
+    include-in-header:
+      text: |
+        \usepackage{ragged2e}
+        \justifying
     geometry:
       - top=2.5cm
       - bottom=2.5cm

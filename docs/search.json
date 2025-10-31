@@ -4,47 +4,7 @@
     "href": "index.html",
     "title": "Modelagem Fuzzy-PLS da Dinâmica de Fósforo e Nitrogênio em Usos do Solo no Sul do Tocantins",
     "section": "",
-    "text": "Resumo\nA conversão de ecossistemas naturais em sistemas agrícolas altera de forma substantiva a dinâmica do fósforo (P) e do nitrogênio (N) no solo, com implicações diretas para a sustentabilidade de ambientes tropicais. Este estudo avaliou a dinâmica funcional de N e P em frações lábeis e húmicas sob quatro usos da terra no sul do Tocantins (Cerrado nativo, Eucalipto, Pastagem e Agricultura com milho), visando integrar evidências preditivas, estruturais e sínteses fuzzy para diagnóstico da funcionalidade edáfica. Amostras de 0–50 cm foram analisadas quanto às frações lábeis (NLabil, NMOL; PLabil, PMOL), húmicas (NTAF, NTAH, NTHum; PTAF, PTAH, PTHum) e totais (NT, PT), incluindo estoques (EstNT, EstPT). A regressão por mínimos quadrados parciais (PLSR) identificou as frações mais relevantes por escores VIP, a modelagem por equações estruturais (PLS-SEM) explicitou relações causais entre construtos latentes (N_lábil, N_húmico, P_lábil, P_húmico) e os estoques totais (N_total, P_total), e um sistema de inferência fuzzy (FSNSI) sintetizou N_total, P_total e densidade do solo em um índice único de funcionalidade. As frações húmicas emergiram como preditoras dominantes (VIP &gt; 1,0) e apresentaram efeito positivo forte sobre os estoques totais (β = 1,286), ao passo que as frações lábeis exibiram coeficientes negativos moderados (β = −0,313). O PLS-SEM indicou ajuste elevado (R² &gt; 0,80; SRMR &lt; 0,06) e simetria dos coeficientes entre N e P, sugerindo acoplamento biogeoquímico entre seus ciclos. O FSNSI diferenciou os usos: o Eucalipto apresentou a maior funcionalidade (FSNSI = 6,07), superando o Cerrado (4,42; p = 0,036), enquanto Agricultura e Pastagem revelaram funcionalidade intermediária. A densidade do solo correlacionou-se negativamente com o FSNSI (r = −0,424; p &lt; 0,001), confirmando-se como fator limitante transversal. Em conjunto, os resultados indicam que o enriquecimento das frações húmicas, associado a maior aporte e qualidade da serapilheira e a melhor estrutura física, sustenta os estoques de N e P e a funcionalidade edáfica. Conclui-se que a integração entre PLSR, PLS-SEM e inferência fuzzy constitui abordagem robusta e multiescalar para diagnosticar a sustentabilidade nutricional do solo e orientar intervenções conservacionistas em ambientes tropicais.\nPalavras-chave: Nitrogênio do solo; Frações húmicas; Mudança de uso da terra; Cerrado; Latossolo; PLS-SEM; PLSR.",
-    "crumbs": [
-      "Resumo"
-    ]
-  },
-  {
-    "objectID": "index.html#estrutura-do-documento",
-    "href": "index.html#estrutura-do-documento",
-    "title": "Modelagem Fuzzy-PLS da Dinâmica de Fósforo e Nitrogênio em Usos do Solo no Sul do Tocantins",
-    "section": "Estrutura do Documento",
-    "text": "Estrutura do Documento\nEste trabalho segue a TIER Protocol 4.0 para garantir clareza e reprodutibilidade:\n\nDados (data/): Conjunto de dados brutos e processados\nCódigo (code/): Scripts R para análise estatística\nOutputs (outputs/): Resultados e tabelas geradas\nFiguras (figures/): Gráficos e visualizações\nCapítulos (chapters/): Seções do artigo",
-    "crumbs": [
-      "Resumo"
-    ]
-  },
-  {
-    "objectID": "index.html#como-reproduzir",
-    "href": "index.html#como-reproduzir",
-    "title": "Modelagem Fuzzy-PLS da Dinâmica de Fósforo e Nitrogênio em Usos do Solo no Sul do Tocantins",
-    "section": "Como Reproduzir",
-    "text": "Como Reproduzir\nPara reproduzir todos os resultados:\nquarto render\nPara gerar apenas HTML:\nquarto render --to html\nPara gerar Word:\nquarto render --to docx",
-    "crumbs": [
-      "Resumo"
-    ]
-  },
-  {
-    "objectID": "index.html#requisitos",
-    "href": "index.html#requisitos",
-    "title": "Modelagem Fuzzy-PLS da Dinâmica de Fósforo e Nitrogênio em Usos do Solo no Sul do Tocantins",
-    "section": "Requisitos",
-    "text": "Requisitos\n\nQuarto ≥ 1.4\nR ≥ 4.0\nPandoc (incluído no Quarto)",
-    "crumbs": [
-      "Resumo"
-    ]
-  },
-  {
-    "objectID": "index.html#citação",
-    "href": "index.html#citação",
-    "title": "Modelagem Fuzzy-PLS da Dinâmica de Fósforo e Nitrogênio em Usos do Solo no Sul do Tocantins",
-    "section": "Citação",
-    "text": "Citação\nCite este trabalho como:\n@article{vidal2025,\n  title = {Modelagem Fuzzy-PLS da Dinâmica de Fósforo e Nitrogênio em Usos do Solo no Sul do Tocantins},\n  author = {Vidal, Diego},\n  year = {2025}\n}\n\nÚltima atualização: r Sys.Date()",
+    "text": "Diego et al.\n\n2025-10-31\n\n\n\n\n\nResumo\n\nA conversão de ecossistemas naturais em sistemas agrícolas altera a dinâmica de fósforo (P) e nitrogênio (N) no solo, impactando a sustentabilidade de ambientes tropicais. Este estudo avaliou a dinâmica funcional de N e P em frações lábeis e húmicas sob quatro usos da terra no sul do Tocantins (Cerrado nativo, Eucalipto, Pastagem e Agricultura com milho). O objetivo foi integrar evidências preditivas (PLSR), estruturais (PLS-SEM) e sínteses fuzzy (FSNSI) para o diagnóstico da funcionalidade edáfica. Amostras de 0–50 cm foram analisadas para frações lábeis e húmicas de N e P, além de estoques totais e densidade do solo. A Regressão por Mínimos Quadrados Parciais (PLSR) identificou as frações húmicas como preditoras dominantes (VIP &gt; 1,0) da disponibilidade de nutrientes. A Modelagem por Equações Estruturais (PLS-SEM), com ajuste elevado, demonstrou que as frações húmicas exercem um efeito positivo forte sobre os estoques totais de N e P (β = 1,286), enquanto as frações lábeis apresentaram coeficientes negativos moderados (β = −0,313). A simetria dos coeficientes entre N e P sugere um acoplamento biogeoquímico fundamental em Latossolos. O Sistema de Inferência Fuzzy (FSNSI) diferenciou os usos, com o Eucalipto apresentando a maior funcionalidade (FSNSI = 6,07), superando o Cerrado nativo. A densidade do solo foi confirmada como fator limitante transversal, correlacionando-se negativamente com o FSNSI. Conclui-se que o enriquecimento das frações húmicas, associado a um melhor aporte de serapilheira e estrutura física, é o principal suporte para os estoques de N e P e a funcionalidade edáfica. A integração metodológica proposta (PLSR, PLS-SEM e FSNSI) constitui uma abordagem robusta e multiescalar para o diagnóstico da sustentabilidade nutricional do solo e a orientação de intervenções conservacionistas em ambientes tropicais.\nPalavras-chave: Nitrogênio do solo; Frações húmicas; Mudança de uso da terra; Cerrado; Latossolo; PLS-SEM; PLSR.\n\n\nÚltima atualização: r Sys.Date()",
     "crumbs": [
       "Resumo"
     ]

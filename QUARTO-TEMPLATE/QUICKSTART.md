@@ -51,8 +51,13 @@
 
 **Pronto!** Comece editando os capítulos em `chapters/`.
 
+---
 
+## 📄 Comandos de Renderização
 
-Gerar apenas PDF: quarto render --to pdf
-Gerar apenas HTML: quarto render --to html
-Gerar tudo (HTML, PDF, DOCX): quarto render
+- **Gerar apenas PDF**: `quarto render --to pdf`
+- **Gerar apenas HTML**: `quarto render --to html`
+- **Gerar apenas Word**: `quarto render --to docx`
+- **Gerar tudo (HTML, PDF, DOCX)**: `quarto render`
+
+Todos os arquivos são gerados automaticamente na pasta `docs/` da raiz do projeto.
