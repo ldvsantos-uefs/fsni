@@ -1,7 +1,4 @@
 # Arquivos gerados (exceto docs/)
-/*.docx
-/*.pdf
-/*.html
 
 # Figuras geradas automaticamente
 2-FIGURAS/*.png
@@ -34,3 +31,5 @@ Thumbs.db
 
 # Documentos de análise (temporários)
 analise_*.md
+
+/.luarc.json
