@@ -3,8 +3,7 @@ project:
   output-dir: docs
 
 book:
-  title: "Avaliação da Funcionalidade do Solo"
-  subtitle: "Sistemas de Manejo Agrícola Usando Lógica Fuzzy"
+  title: "Modelagem Fuzzy-PLS da Dinâmica de Fósforo e Nitrogênio em Usos do Solo no Sul do Tocantins"
   author: "Diego et al."
   date: today
   favicon: cover.png
