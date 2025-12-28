@@ -174,7 +174,7 @@ O domínio da função triangular foi ajustado de forma a garantir sobreposiçã
 
 #### Base de regras fuzzy
 
-A base de conhecimento foi composta por sete regras linguísticas do tipo "SE–ENTÃO", baseadas na combinação dos termos linguísticos das variáveis de entrada. A estrutura das regras segue a forma genérica (Equação 6):
+A base de conhecimento foi composta por sete regras linguísticas do tipo SE–ENTÃO, baseadas na combinação dos termos linguísticos das variáveis de entrada. A estrutura das regras segue a forma genérica (Equação 6):
 
 $$R_{(i)}: \text{SE } x_1 \in A_1 \land x_2 \in A_2 \land x_3 \in A_3 \Rightarrow y \in B_i$$
 
@@ -183,7 +183,7 @@ A ativação de cada regra $R_{(i)}$ foi calculada conforme a Equação 7:
 $$\alpha_i = \min(\mu_{A1}(x_1), \mu_{A2}(x_2), \dots, \mu_{An}(x_n))$$
 
 O valor de saída correspondente $\mu_{B_i}(z)$ foi ponderado por $\alpha_i$ e os conjuntos ativados foram agregados via operador do tipo MAX.
-Para incorporar o papel da densidade do solo como penalidade funcional, os pesos wi atribuídos a cada regra foram ajustados dinamicamente em função da classificação linguística de Ds. Regras com densidade alta (categoria linguística "baixa" na escala invertida) receberam pesos reduzidos (entre 0.4 e 0.6), enquanto regras com densidade baixa (categoria "alta") foram atribuídas com pesos maiores (até 1.5). Esse ajuste visa reforçar a influência da qualidade física do solo na determinação da funcionalidade.
+Para incorporar o papel da densidade do solo como penalidade funcional, os pesos wi atribuídos a cada regra foram ajustados dinamicamente em função da classificação linguística de Ds. Regras com densidade alta (categoria linguística baixa na escala invertida) receberam pesos reduzidos (entre 0.4 e 0.6), enquanto regras com densidade baixa (categoria alta) foram atribuídas com pesos maiores (até 1.5). Esse ajuste visa reforçar a influência da qualidade física do solo na determinação da funcionalidade.
 
 #### Defuzzificação do índice funcional
 
